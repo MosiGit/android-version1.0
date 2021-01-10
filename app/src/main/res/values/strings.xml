@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AndroidExpertSession5</string>
+    <string name="Main_Button_Linear_Layout">Linear Layout</string>
+    <string name="Main_Button_Relative_Layout">Relative Layout</string>
+    <string name="Main_Button_Frame_Layout">Frame Layout</string>
+    <string name="Main_Button_Views_Layout">Views</string>
+    <string name="Main_Button_Constraint_Layout">Constraint Layout</string>
+    <string name="Main_Button_recyclerViewSample">Recycler View</string>
+    <string name="Views_TextView_FullName">Mostafa Talebiuon</string>
+    <string name="Views_viewWebsite">View Website</string>
+    <string name="Views_EditName">Edit Name</string>
+    <string name="Views_saveName">Save Name</string>
+    <string name="Views_get_firstName_hint">First Name</string>
+    <string name="Views_get_lastName_hint">Last Name</string>
+    <string name="Views_Skills">Skills</string>
+    <string name="Views_CheckBoxText_AndroidDevelopment">Android Development</string>
+    <string name="Views_CheckBoxText_UiDesign">Ui Design</string>
+    <string name="Views_CheckBoxText_DeepLearning">Deep Learning</string>
+    <string name="Views_CheckBox_ProvinceCity">Province, City</string>
+    <string name="Views_RadioButton_GilanRasht">Gilan, Rasht</string>
+    <string name="Views_RadioButton_Tehran">Tehran</string>
+    <string name="Views_RadioButton_SemnanShahroud">Semnan, Shahroud</string>
+    <string name="Views_Button_SaveInformation">Save Information</string>
+    <string name="Views_Toolbar_activity_sample_views">Android Simple Views</string>
+    <string name="Views_Toolbar_activity_sample_Linear_Layout">Android Simple Linear Layout</string>
+    <string name="Views_Toolbar_Android_Simple_Frame_Layout">Android Simple Frame Layout</string>
+    <string name="Views_Toolbar_Android_Simple_Relative_Layout">Android Simple Relative Layout</string>
+    <string name="Views_Toolbar_Android_Simple_Constraint_Layout">Android Simple Constraint Layout</string>
+    <string name="Relative_Layout_saveButton">Save</string>
+    <string name="Relative_Layout_cancelButton">Cancel</string>
+    <string name="Relative_Layout_ButtonA">A</string>
+    <string name="Relative_Layout_ButtonB">B</string>
+    <string name="Relative_Layout_ButtonC">C</string>
+    <string name="Relative_Layout_ButtonD">D</string>
+    <string name="RecyclerViewSample_Button_addEmail">Add Email</string>
+    <string name="RecyclerViewSample_Button_removeEmail">Remove Email</string>
+    <string name="RecyclerViewSample_Button_NotifyAll">Notify All</string>
+
+</resources>

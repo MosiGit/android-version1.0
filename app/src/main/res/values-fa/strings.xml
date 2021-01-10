@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">اپلیکیشن اندروید قسمت 5</string>
+    <string name="Main_Button_Linear_Layout">لایه خطی</string>
+    <string name="Main_Button_Relative_Layout">لایه نسبی</string>
+    <string name="Main_Button_Frame_Layout">لایه فریم</string>
+    <string name="Main_Button_Views_Layout">نمایش ها</string>
+    <string name="Main_Button_Constraint_Layout">لایه محدود</string>
+    <string name="Main_Button_recyclerViewSample">نمای بازیافت</string>
+    <string name="Views_TextView_FullName">مصطفی طالبیون</string>
+    <string name="Views_viewWebsite">مشاهده وبسایت</string>
+    <string name="Views_EditName">ویرایش نام</string>
+    <string name="Views_saveName">ذخیره نام</string>
+    <string name="Views_get_firstName_hint">نام</string>
+    <string name="Views_get_lastName_hint">نام خانوادگی</string>
+    <string name="Views_Skills">مهارت ها</string>
+    <string name="Views_CheckBoxText_AndroidDevelopment">توسعه دهنده اندروید</string>
+    <string name="Views_CheckBoxText_UiDesign">طراحی UI</string>
+    <string name="Views_CheckBoxText_DeepLearning">یادگیری عمیق</string>
+    <string name="Views_CheckBox_ProvinceCity">انتخاب شهر</string>
+    <string name="Views_RadioButton_GilanRasht">گیلان-رشت</string>
+    <string name="Views_RadioButton_Tehran">تهران</string>
+    <string name="Views_RadioButton_SemnanShahroud">سمنان-شاهرود</string>
+    <string name="Views_Button_SaveInformation">ذخیره اطلاعات</string>
+    <string name="Views_Toolbar_activity_sample_views">نمایش های اندروید ساده</string>
+    <string name="Views_Toolbar_activity_sample_Linear_Layout">لایه خطی ساده اندروید</string>
+    <string name="Views_Toolbar_Android_Simple_Frame_Layout">لایه فریم ساده اندروید</string>
+    <string name="Views_Toolbar_Android_Simple_Relative_Layout">لایه نسبی ساده اندروید</string>
+    <string name="Views_Toolbar_Android_Simple_Constraint_Layout">لایه محدود ساده اندروید</string>
+    <string name="Relative_Layout_saveButton">ذخیره</string>
+    <string name="Relative_Layout_cancelButton">انصراف</string>
+    <string name="Relative_Layout_ButtonA">A</string>
+    <string name="Relative_Layout_ButtonB">B</string>
+    <string name="Relative_Layout_ButtonC">C</string>
+    <string name="Relative_Layout_ButtonD">D</string>
+    <string name="RecyclerViewSample_Button_addEmail">اضافه کردن ایمیل</string>
+    <string name="RecyclerViewSample_Button_removeEmail">پاک کردن ایمیل</string>
+    <string name="RecyclerViewSample_Button_NotifyAll">اعلام کردن همه</string>
+
+</resources>

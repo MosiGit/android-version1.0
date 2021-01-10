@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewsSample">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent">
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+                 <ImageView
+                     android:id="@+id/iv_ViewsSample_backbutton"
+                     android:layout_alignParentStart="true"
+                     android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                     app:srcCompat="@drawable/ic_arrow_back_black_24dp"
+                     tools:ignore="VectorDrawableCompat" />
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_toEndOf="@id/iv_ViewsSample_backbutton"
+                     android:layout_marginStart="8dp"
+                     android:textSize="20sp"
+                     android:textColor="@color/PrimaryTextColor"
+                     android:paddingStart="16dp"
+                     android:text="@string/Views_Toolbar_activity_sample_views"/>
+             </RelativeLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/human_face_animated"/>
+
+            <TextView
+                android:id="@+id/TextView_EditfullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/PrimaryTextColor"
+                android:text="@string/Views_TextView_FullName"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <Button
+                        android:id="@+id/button_viewSample_editProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:background="@drawable/primary_button_backdround"
+                        android:layout_marginEnd="8dp"
+                        android:text="@string/Views_EditName"/>
+                    <Button
+                        android:id="@+id/button_viewSample_viewWebsite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:textColor="@color/SecondrayTextColor"
+                        android:background="@drawable/secondray_button_background"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:text="@string/Views_viewWebsite"/>
+                </LinearLayout>
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/editText_viewsSample_firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/Views_get_firstName_hint"/>
+            <EditText
+                android:id="@+id/editText_viewsSample_lastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/Views_get_lastName_hint"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Views_Skills"
+                android:textSize="20sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/Views_CheckBoxText_AndroidDevelopment" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/Views_CheckBoxText_UiDesign" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="@string/Views_CheckBoxText_DeepLearning" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Views_CheckBox_ProvinceCity"
+                android:textSize="20sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Views_RadioButton_GilanRasht" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Views_RadioButton_Tehran" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Views_RadioButton_SemnanShahroud" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/Views_Button_SaveInformation"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:background="@color/colorAccent" />
+
+</FrameLayout>

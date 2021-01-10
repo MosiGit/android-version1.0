@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Button_LinearLayout"
+        android:layout_width="300dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Main_Button_Linear_Layout" />
+
+    <Button
+        android:id="@+id/Button_RelativeLayout"
+        android:layout_width="300dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Main_Button_Relative_Layout" />
+
+    <Button
+        android:id="@+id/Button_FrameLayout"
+        android:layout_width="300dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Main_Button_Frame_Layout" />
+
+    <Button
+        android:id="@+id/Button_Views"
+        android:layout_width="300dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Main_Button_Views_Layout" />
+
+    <Button
+    android:id="@+id/Button_ConstranitLayout"
+    android:layout_width="300dp"
+    android:textAllCaps="false"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/Main_Button_Constraint_Layout" />
+
+    <Button
+        android:id="@+id/Button_recyclerViewSample"
+        android:layout_width="300dp"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Main_Button_recyclerViewSample" />
+
+</LinearLayout>
